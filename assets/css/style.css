@@ -67,6 +67,11 @@ nav button {
     font-size: 1rem;
 }
 
+nav button:hover {
+    background-color: #2B2C2E;
+    color: white;
+}
+
 /* Main */
 
 /* section 1 */
@@ -228,8 +233,8 @@ nav button {
     align-items: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
-
     text-align: center;
+
 }
 
 .critique h2 {
@@ -252,6 +257,7 @@ nav button {
     width: 1200px;
     margin: 0 auto;
     display: flex;
+    border-bottom: 1px solid #848689;
 }
 .conversion p {
     font-size: 1rem;
@@ -266,4 +272,41 @@ nav button {
 .conversion img {
     width:50%;
     translate: 100px -90px;
+}
+
+/* footer section */
+
+.costume {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.costume article{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.costume h2 {
+    font-size: 3rem;
+    font-family: tiemposheadline-semibold;
+}
+
+.costume img {
+    width: 10%;
+    margin-top: 5vh;
+}
+
+.costume a {
+    font-family: graphik-medium;
+    text-decoration: none;
+    color:#848689;
+}
+
+.costume span {
+    color: black;;
 }
