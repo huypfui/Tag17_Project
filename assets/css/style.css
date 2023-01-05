@@ -110,6 +110,98 @@ nav button {
 .section2 article:nth-of-type(2) p {
     font-size: 1rem;
     font-family: theinhardt-lt;
-    color: #9FA2A7;
+    color: #848689;
 }
 
+/* section deliverables */
+
+/* .deliverables {
+    background-image: url(../img/home_deliverables.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    height: 70vh;
+} */
+
+.deliverables {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.deliverables img {
+    width: 40%;
+}
+
+.deliverables article {
+    width: 460px;
+    margin-right: 20vw;
+}
+
+.deliverables div {
+    margin-top: 5vh;
+}
+
+.deliverables article h2 {
+    font-size: 3rem;
+    font-family: tiemposheadline-semibold;
+}
+
+.deliverables article h3 {
+    font-family: graphik-medium;
+    margin-top: 3vh;
+}
+
+.deliverables article p {
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-top: 1vh;
+
+}
+
+/* section greybox */
+
+.greyBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 1100px;
+    margin-top: 10vh;
+}
+
+.greyBox img {
+    width: 45%;
+}
+
+.greyBox article {
+    width: 460px;
+    margin-left: 3vw;
+
+}
+
+.greyBox article h2 {
+    font-size: 3rem;
+    font-family: tiemposheadline-semibold;
+    margin-top: 2vh;
+
+}
+
+.greyBox article ol {
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-top: 1vh;
+}
+
+.greyBox article ol {
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.greyBox article p {
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-top: 1vh;
+}
