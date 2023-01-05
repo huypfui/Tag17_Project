@@ -310,3 +310,43 @@ nav button:hover {
 .costume span {
     color: black;;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    body{
+        width: 768px;
+    
+    }
+
+    nav {
+        width: 600px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section1, .section2, .deliverables, .greyBox, .critique, .conversion, .costume {
+        width: 600px;
+        margin-top: 5vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body img {
+        width: 100%;
+    }
+
+    .conversion p{
+        translate: -200px 0px;
+    }
+
+    .conversion img{
+        translate: 100px 0px;
+    }
+}
+
