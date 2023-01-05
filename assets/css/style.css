@@ -227,6 +227,8 @@ nav button {
     flex-direction: column;
     align-items: center;
     margin-top: 10vh;
+    margin-bottom: 10vh;
+
     text-align: center;
 }
 
@@ -240,4 +242,28 @@ nav button {
     font-family: theinhardt-lt;
     color: #848689;
     margin-top: 2vh;
+}
+
+
+/* section conversion */
+
+.conversion {
+    margin-top: 10vh;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.conversion p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-left: 200px;
+    translate: 0px -15px;
+}
+
+
+.conversion img {
+    width:50%;
+    translate: 100px -90px;
 }
