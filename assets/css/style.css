@@ -36,10 +36,13 @@ body {
 /* Navbar */
 
 nav {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding-top: 1vh;
+    font-size: 1rem;
 }
 
 nav section {   
@@ -53,15 +56,15 @@ nav section a {
 }
 
 nav p{
-    padding-right: 10vw;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: tiemposheadline-semibold;
 }
 
 nav button {
     font-family: graphik-medium;
-    width: 150px;
-    height:30px;
+    width: 200px;
+    height:40px;
+    font-size: 1rem;
 }
 
 /* Main */
@@ -69,37 +72,43 @@ nav button {
 /* section 1 */
 
 .section1 {
+    width: 1200px;
+    margin: 0 auto;
     font-family: graphik-regular;
-    font-size: 1.5rem;
     padding-top: 5vh;
 }
 
 .section1 h1 {
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .hero {
-    width: 110%;
+    width: 100%;
     padding-top: 2vh;
-    translate: -80px 0px;
+/*     translate: -80px 0px; */
 }
 
 /* section 2 */
 .section2 {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     margin-top: 10vh;
 }
 
 .section2 article:nth-of-type(1) {
-    width:600px;
+    width:650px;
     font-family: graphik-medium;
+    font-size: 1.2rem;
+
 }
 
 .section2 article:nth-of-type(2) {
     width:200px;
     font-family: theinhardt-lt;
-    margin-left: 2vw;
+    margin-left: 5vw;
 }
 
 .section2 article:nth-of-type(2) h2 {
@@ -124,18 +133,19 @@ nav button {
 } */
 
 .deliverables {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top: 10vh;
 }
 
 .deliverables img {
-    width: 40%;
+    width: 55%;
 }
 
 .deliverables article {
     width: 460px;
-    margin-right: 20vw;
 }
 
 .deliverables div {
@@ -162,16 +172,17 @@ nav button {
 /* section greybox */
 
 .greyBox {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f2f2f2;
-    width: 1100px;
     margin-top: 10vh;
 }
 
 .greyBox img {
-    width: 45%;
+    width: 50%;
 }
 
 .greyBox article {
@@ -204,4 +215,29 @@ nav button {
     font-family: theinhardt-lt;
     color: #848689;
     margin-top: 1vh;
+}
+
+
+/* section critique */
+
+.critique {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.critique h2 {
+    font-size: 3rem;
+    font-family: tiemposheadline-semibold;
+}
+
+.critique p {
+    font-size: 1rem;
+    font-family: theinhardt-lt;
+    color: #848689;
+    margin-top: 2vh;
 }
